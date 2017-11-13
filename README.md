@@ -1,19 +1,19 @@
-# Elasticsearch Exporter [![Build Status](https://travis-ci.org/justwatchcom/elasticsearch_exporter.svg?branch=master)](https://travis-ci.org/justwatchcom/elasticsearch_exporter)
-[![Docker Pulls](https://img.shields.io/docker/pulls/justwatch/elasticsearch_exporter.svg?maxAge=604800)](https://hub.docker.com/r/justwatch/elasticsearch_exporter)
-[![Go Report Card](https://goreportcard.com/badge/github.com/justwatchcom/elasticsearch_exporter)](https://goreportcard.com/report/github.com/justwatchcom/elasticsearch_exporter)
+# Elasticsearch Exporter [![Build Status](https://travis-ci.org/gjaminoncom/elasticsearch_exporter.svg?branch=master)](https://travis-ci.org/gjaminoncom/elasticsearch_exporter)
+[![Docker Pulls](https://img.shields.io/docker/pulls/gjaminon/elasticsearch_exporter.svg?maxAge=604800)](https://hub.docker.com/r/gjaminon/elasticsearch_exporter)
+[![Go Report Card](https://goreportcard.com/badge/github.com/gjaminoncom/elasticsearch_exporter)](https://goreportcard.com/report/github.com/gjaminoncom/elasticsearch_exporter)
 
 Prometheus exporter for various metrics about ElasticSearch, written in Go.
 
 ### Installation
 
 For pre-built binaries please take a look at the releases.  
-https://github.com/justwatchcom/elasticsearch_exporter/releases
+https://github.com/gjaminoncom/elasticsearch_exporter/releases
 
 #### Docker
 
 ```bash
-docker pull justwatch/elasticsearch_exporter:1.0.1
-docker run --rm -p 9108:9108 justwatch/elasticsearch_exporter:1.0.1
+docker pull gjaminon/elasticsearch_exporter:1.0.1
+docker run --rm -p 9108:9108 gjaminon/elasticsearch_exporter:1.0.1
 ```
 
 Example `docker-compose.yml`:
@@ -161,19 +161,7 @@ For example on [GCE](https://cloud.google.com)
 Please refer to the [Prometheus SD documentation](https://prometheus.io/docs/operating/configuration/) to see which metadata labels can be used to create the `cluster` label.
 
 ## Credit & License
-
-`elasticsearch_exporter` is maintained by the nice folks from [JustWatch](https://www.justwatch.com/)
-and licensed under the terms of the Apache license.
-
-This package was originally created and mainted by [Eric Richardson](https://github.com/ewr),
-who transferred this repository to us in January 2017.
-
-Maintainers of this repository:
-
-* Matthias Loibl <matthias.loibl@justwatch.com> @metalmatze
-* Dominik Schulz <dominik.schulz@justwatch.com> @dominikschulz
-
-Please refer to the Git commit log for a complete list of contributors.
+Forked from https://github.com/justwatchcom/elasticsearch_exporter
 
 ## Contributing
 
