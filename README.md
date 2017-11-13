@@ -20,7 +20,7 @@ Example `docker-compose.yml`:
 
 ```yaml
 elasticsearch_exporter:
-    image: justwatch/elasticsearch_exporter:1.0.1
+    image: gjaminon/elasticsearch_exporter:1.0.1
     command:
      - '-es.uri=http://elasticsearch:9200'
     restart: always
